@@ -1,0 +1,10 @@
+h1, h2, h3, h4, {
+	color:gray;
+}
+body {
+	color:black; 
+	font-family: Tahoma, Verdana, sans-serif; 
+	font-size: 14;
+	border: 1px solid #bfeded;
+	background-color: white;
+}
