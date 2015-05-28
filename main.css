@@ -21,17 +21,25 @@
 }
 body{
 	font-family:Arial,Verdana, sans-serif;
+	font-weight: normal;
+	padding: 10px;
 }
 
 h1{
 	color:#328EAA;
+	font-size: 1.25em;
+	font-weight: bold;
 }
 h2{
 	color:#4C4D4F;
+	font-size: 1em;
 }
 h3{
 	color:#4FACA4;
+	font-size: 1em;
 }
 p {
 	color:#4C4D4F;
+	font-size: 16px;
+	line-height: 1.5 em;
 }
