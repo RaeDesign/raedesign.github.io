@@ -1,9 +1,37 @@
-#Branding {
+#header-wrapper {
 
 }
-
-.Brandingtext { 
-	text-align: left;
+.container {
 
 }
+#logo{
 
+}
+#menu-top-right{
+
+}
+#menu-top-left{
+
+}
+#memberLogin{
+
+}
+#tag{
+
+}
+body{
+	font-family:Arial,Verdana, sans-serif;
+}
+
+h1{
+	color:#328EAA;
+}
+h2{
+	color:#4C4D4F;
+}
+h3{
+	color:#4FACA4;
+}
+p {
+	color:#4C4D4F;
+}
