@@ -24,6 +24,11 @@ footer {
 	padding-left: 5em;
 	padding-top: 2em;
 	} /*etc*/
+.LoginButton{
+	width: 33%;
+	height: 40vh;
+
+}
 section#ActionItems{
 	float: left;
 }
