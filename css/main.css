@@ -10,7 +10,6 @@ body{
 }
 header { }
 nav{
-	padding-left: 5em;
 	display: inline-block;
 	padding: 10px 17px 10px 1px;
 }
@@ -18,8 +17,7 @@ section {
 	padding: 2.75em 0;
 }
 section#splash {
-	padding: 5em;
-	padding-left: 5em;
+	padding: 5em 0em 0em 5em;
 }
 footer { 
 	padding-left: 5em;
