@@ -24,17 +24,6 @@ footer {
 	padding-left: 5em;
 	padding-top: 2em;
 	} /*etc*/
-.LoginButton{
-	float: right;
-	background-color: #808080;
-	height: 51vh;
-	padding-top: 2em;
-	padding-left: 1em;
-	padding-right: 1em;
-	font-weight: normal;
-	font-family: sans-serif; 
-
-}
 section#ActionItems{
 	float: left;
 }
@@ -64,7 +53,7 @@ p {
 }
 #logoText{
 	font-weight: bold;
-	font-size: 14px;
+	font-size: 1.5em;
 	color: #2C2C2C;
 
 }
