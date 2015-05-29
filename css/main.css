@@ -43,10 +43,10 @@ h4 {
 p {
 	line-height: 1.5em;
 }
-#contact {
-
-}
 .container {
+	padding-left: 2em;
+	background-color: #6294B7;
+
 
 }
 #logo{
@@ -60,6 +60,14 @@ p {
 }
 #memberLogin{
 	float: right;
+	background-color: #808080;
+	height: 50vh;
+	padding-top: 2em;
+	padding-left: 1em;
+	padding-right: 1em;
+	font-weight: normal;
+	font-family: sans-serif;
+
 }
 #tag{
 
