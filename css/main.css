@@ -24,6 +24,9 @@ footer {
 	padding-left: 5em;
 	padding-top: 2em;
 	} /*etc*/
+section#ActionItems{
+	float: left;
+}
 h1{
 	color:#328EAA;
 	font-size: 7em;
