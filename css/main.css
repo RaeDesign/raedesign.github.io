@@ -11,14 +11,20 @@ body{
 header { }
 nav{
 	padding-left: 5em;
+	display: inline-block;
+	padding: 10px 17px 10px 12px;
 }
 section { 
-	padding: 2em 0;
+	padding: 2.75em 0;
 }
 section#splash {
 	padding: 5em;
+	padding-left: 5em;
 }
-footer { } /*etc*/
+footer { 
+	padding-left: 5em;
+	padding-top: 2em;
+	} /*etc*/
 h1{
 	color:#328EAA;
 	font-size: 7em;
