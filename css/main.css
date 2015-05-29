@@ -9,18 +9,20 @@ body{
 	font-weight: 100;
 }
 header { }
+nav{
+	padding-left: 5em;
+}
 section { 
 	padding: 5em 0;
 }
 section#splash {
-	height: 200vh;
-	line-height: 1em;
-	font-size: 7em;
+	padding: 5em;
 }
 footer { } /*etc*/
 h1{
 	color:#328EAA;
-	font-size: 2em;
+	font-size: 7em;
+	line-height: 1em;
 	font-weight: bold;
 }
 h2{
