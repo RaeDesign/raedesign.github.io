@@ -54,11 +54,9 @@ h1 {
 h2 {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 18px;
-	font-weight: 500px;
 	}
 
 p {
-	width: 600px;
 	margin: 20px auto 20px auto;
 	font-weight: normal;
 	font-size: 16px;
@@ -69,7 +67,7 @@ p.first{
 	padding: .7em;
 	border-style: solid;
 	border-width: 2px; 
-	border-color: #787879;
+	border-color: #4f4f4f;
 }
 a {
 	color: #787879;
@@ -100,10 +98,12 @@ nav a:hover{
 }
 .columns{
 	margin: 10px auto 10px auto;
+	width: 313px;
+
 
 }
 .columns a {
-	border: 5px solid #ee3e80;
+	border: 5px solid #4f4f4f;
 	padding: 20px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
