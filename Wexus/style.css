@@ -64,8 +64,9 @@ p {
 	font-size: 16px;
 }
 p.first{
-	width: 100px;
-	padding: .5em;
+	width: 150px;
+	text-align: center;
+	padding: .7em;
 	border-style: solid;
 	border-width: 2px; 
 	border-color: #787879;
@@ -81,7 +82,7 @@ nav a:hover{
 }
 
 #welcome{
-	background-image: url("images/splash.png");
+	background-image: url("/images/splash.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	font-weight: 700;
