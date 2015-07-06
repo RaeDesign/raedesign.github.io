@@ -107,7 +107,7 @@ nav a:hover {
 .columns {
 	float:left;
 	margin: 10px auto 10px auto;
-	width: 313px;
+	width: 235px;
 	padding-bottom: 1.5em;
 
 }
@@ -119,7 +119,7 @@ nav a:hover {
 	border-radius: 10px;
 }
 .tower{
-	height: auto;
+	height: size;
 }
 #bluebar{
     width: 939px;
