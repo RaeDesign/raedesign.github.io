@@ -79,6 +79,13 @@ nav a:hover{
 	color: #DB4249;
 	background-color: #ffffff;
 }
+#triangle_down {
+    width: 0;
+    height: 0;
+    border-top: 140px solid #20a3bf;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+}
 
 #welcome{
 	background-image: url("/images/splash.png");
