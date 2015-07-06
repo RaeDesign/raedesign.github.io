@@ -83,6 +83,7 @@ nav a:hover{
 #welcome{
 	background-image: url("/images/splash.png");
 	background-size: cover;
+	height: 350px;
 	background-repeat: no-repeat;
 	font-weight: 700;
 	color: #000000;
@@ -103,8 +104,8 @@ nav a:hover{
 
 }
 .columns a {
-	border: 5px solid #4f4f4f;
-	padding: 20px;
+	border: 2px solid #4f4f4f;
+	padding: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
