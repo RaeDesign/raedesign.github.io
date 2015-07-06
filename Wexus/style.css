@@ -15,7 +15,6 @@ body {
 }
 #logo {
 	width: auto;
-	float: right;
 	display: inline-block;
 }
 
@@ -28,7 +27,7 @@ li {
 	width: 625px;
 	padding: 15px;
 	margin: 0px auto 0px auto;
-	border-bottom: 1px solid #000;
+	border-bottom: none;
 	font-size: 11px;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 700;
