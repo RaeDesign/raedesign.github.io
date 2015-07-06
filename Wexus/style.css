@@ -61,7 +61,7 @@ p {
 	font-weight: normal;
 	font-size: 16px;
 }
-p.first{
+p.first {
 	width: 150px;
 	text-align: center;
 	padding: .7em;
@@ -75,7 +75,7 @@ a {
 	text-decoration: none;
 	padding: 0 .5em 0 .5em;
 }
-nav a:hover{
+nav a:hover {
 	color: #DB4249;
 	background-color: #ffffff;
 }
@@ -87,7 +87,7 @@ nav a:hover{
     border-right: 70px solid transparent;
 }
 
-#welcome{
+#welcome {
 	background-image: url("/images/splash.png");
 	background-size: cover;
 	height: 350px;
@@ -95,7 +95,7 @@ nav a:hover{
 	font-weight: 700;
 	color: #000000;
 }
-#welcome h1{
+#welcome h1 {
 	margin: 1.5em 1.5em;
 	font-style: bold;
 	color: #000000;
@@ -104,7 +104,7 @@ nav a:hover{
 #mainbottom {
 
 }
-.columns{
+.columns {
 	float:left;
 	margin: 10px auto 10px auto;
 	width: 313px;
@@ -117,4 +117,15 @@ nav a:hover{
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
+}
+.tower{
+	height: auto;
+}
+#bluebar{
+    width: 939px;
+    height: 30px;
+    background: #72C3E6;
+}
+footer {
+
 }
