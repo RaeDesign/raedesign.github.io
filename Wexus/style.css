@@ -100,11 +100,16 @@ nav a:hover {
 	font-style: bold;
 	color: #000000;
 }
-
-#mainbottom {
+#bluebar{
+    width: 939px;
+    height: 30px;
+    background: #72C3E6;
+}
+footer {
 
 }
 .columns {
+	font-size: 15px;
 	float:left;
 	margin: 10px auto 10px auto;
 	width: 235px;
@@ -118,14 +123,6 @@ nav a:hover {
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
 }
-.tower{
-	height: size;
-}
-#bluebar{
-    width: 939px;
-    height: 30px;
-    background: #72C3E6;
-}
-footer {
-
+.tower {
+	float: right;
 }
