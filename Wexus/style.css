@@ -75,6 +75,7 @@ a {
 	color: #787879;
 	text-transform: uppercase;
 	text-decoration: none;
+	padding-right: .5em;
 }
 nav a:hover{
 	color: #DB4249;
