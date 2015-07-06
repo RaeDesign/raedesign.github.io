@@ -24,7 +24,6 @@ li {
 }
 
 #helpnav {
-	width: 625px;
 	padding: 15px;
 	margin: 0px auto 0px auto;
 	border-bottom: none;
@@ -70,7 +69,7 @@ a {
 	text-decoration: none;
 }
 nav a:hover{
-	color: #cc3333;
+	color: #787879;
 	background-color: #ffffff;
 }
 
