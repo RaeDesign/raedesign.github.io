@@ -1,8 +1,8 @@
 body {
-	font-size: 18px;
+	font-size: 16px;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 400;
-	letter-spacing: 0.15 em;
+	letter-spacing: 0.15em;
 	background-color: #efefef;
 }
 
@@ -10,10 +10,10 @@ body {
 	max-width: 940px;
 	min-width: 720px;
 	margin: 10px auto 10px auto;
-	padding:20px;
+	padding: 20px;
 	border: 4px double #000;
 	border-color: #ffffff;
-	background-color: #00000;
+	background-color: #000000;
 }
 #logo {
 	width: auto;
@@ -61,23 +61,24 @@ h2 {
 	}
 
 p {
-	width: 600 px;
+	width: 600px;
 	margin: 20px auto 20px auto;
 	font-weight: normal;
-	font-size: 16 px;
+	font-size: 16px;
 }
 a {
 	color: #00a2e1;
 	text-transform: uppercase;
 	text-decoration: none;
 }
-a:hover, a.on {
+nav a:hover{
 	color: #cc3333;
 	background-color: #ffffff;
 }
 
 #welcome{
-	background-image: 
+	background-image: url("images/splash.png");
+	background-size: cover;
 	background-repeat: no-repeat;
 	font-style: bold;
 	color: #6E7F92;
@@ -90,16 +91,14 @@ a:hover, a.on {
 #mainbottom {
 
 }
-#columns{
+.columns{
 	margin: 10px auto 10px auto;
 
 }
-#columns a {
+.columns a {
 	border: 5px solid #ee3e80;
 	padding: 20px;
-	border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
-}
-
+	border-radius: 10px;
 }
