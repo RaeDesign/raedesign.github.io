@@ -64,8 +64,10 @@ p {
 	font-size: 16px;
 }
 p.first{
+	width: 100px;
+	padding: .5em;
 	border-style: solid;
-	border-width: 3px; 
+	border-width: 2px; 
 	border-color: #787879;
 }
 a {
