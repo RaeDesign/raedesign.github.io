@@ -83,8 +83,7 @@ a {
 	padding: 0 .5em 0 .5em;
 }
 nav a:hover {
-	color: #DB4249;
-	background-color: #ffffff;
+	color: #000000;
 }
 
 #welcome {
@@ -96,7 +95,7 @@ nav a:hover {
 	color: #000000;
 	letter-spacing: 0.15em;
 	border-bottom: solid 25px #72C3E6;
-	padding-top: 15px;
+	padding-top: 45px;
 }
 #welcome h1 {
 	margin: 1.5em 1.5em;
