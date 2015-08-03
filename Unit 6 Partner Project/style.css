@@ -124,8 +124,8 @@ nav a:hover {
 div.transbox {
     margin: 30px;
     background-color: #ffffff;
-    opacity: 0.2;
-    filter: alpha(opacity=20); /* For IE8 and earlier */
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 .columns {
 	font-size: 15px;
