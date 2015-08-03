@@ -113,6 +113,7 @@ nav a:hover {
 	letter-spacing: 0.15em;
 	border-bottom: solid 25px #72C3E6;
 	padding-top: 45px;
+	text-align: center;
 }
 #welcome h1 {
 	margin: 1.5em 1.5em;
