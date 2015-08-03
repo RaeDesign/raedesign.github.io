@@ -62,7 +62,6 @@ p {
 	margin: 20px auto 20px auto;
 	font-weight: normal;
 	font-size: 16px;
-	border-top: 2px solid;
 }ß
 a.first {
 	width: 150px;
@@ -75,7 +74,7 @@ a.first {
 	margin: auto;
 	transform: translateY(-50%);
 	background-color: #a3f3fd;
-
+	border-top: 2px;
 }
 a {
 	color: #787879;
