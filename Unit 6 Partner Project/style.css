@@ -108,9 +108,7 @@ nav a:hover {
 #welcome {
 	background-image: url("/images/splash.png");
 	background-size: cover;
-	height: 350px;
 	background-repeat: no-repeat;
-	font-weight: 700;
 	color: #000000;
 	letter-spacing: 0.15em;
 	border-bottom: solid 25px #72C3E6;
