@@ -81,7 +81,6 @@ a.first {
 	margin: auto;
 	transform: translateY(-50%);
 	background-color: #a3f3fd;
-	border-top: 2px;
 }
 a {
 	color: #787879;
@@ -117,7 +116,7 @@ footer {
 	font-size: 15px;
 	float:left;
 	margin: 10px auto 10px auto;
-	width: 323px;
+	width: 235px;
 	padding-bottom: 1.5em;
 
 }
