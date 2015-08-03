@@ -49,13 +49,14 @@ li {
 
 h1 {
 	font-family: 'Oswald', sans-serif;
-	font-size: 24px;
+	font-size: 68px;
 	font-weight: 700px;
+	letter-spacing: 2px;
 	}
 
 h2 {
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 19px;
+	font-size: 20px;
 	}
 
 h3 {
