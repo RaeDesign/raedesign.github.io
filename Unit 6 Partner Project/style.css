@@ -62,7 +62,9 @@ p {
 	margin: 20px auto 20px auto;
 	font-weight: normal;
 	font-size: 16px;
-}ß
+	border-top: 1px solid;
+}
+
 a.first {
 	width: 150px;
 	text-align: center;
@@ -102,11 +104,7 @@ nav a:hover {
 	font-style: bold;
 	color: #000000;
 }
-#bluebar{
-    width: 970px;
-    height: 25px;
-    background: #72C3E6;
-}
+
 footer {
 
 }
