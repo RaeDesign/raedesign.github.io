@@ -70,6 +70,10 @@ h4 {
 	font-weight: 700px; 
 	}
 
+p.freetrial a:hover {
+	background-color: red;
+
+}
 
 p.first {
 	margin: 20px auto 20px auto;
@@ -103,6 +107,9 @@ a {
 }
 nav a:hover {
 	color: #000000;
+}
+.btn a:hover{
+	background-color: blue;
 }
 
 #welcome {
