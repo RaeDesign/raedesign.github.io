@@ -118,7 +118,7 @@ nav a:hover {
 	background-repeat: no-repeat;
 	color: #000000;
 	letter-spacing: 0.15em;
-	border-bottom: solid 25px #FFFFFF;
+	border-bottom: solid 25px #000000;
 	padding-top: 45px;
 	text-align: center;
 }
