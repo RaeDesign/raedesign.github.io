@@ -150,3 +150,27 @@ div.transbox {
 .tower {
 	float: right;
 }
+
+nav.mobile {
+	display: none;
+}
+
+@media (max-width: 700px) {
+
+	#helpnav {
+		display: none;
+	}
+
+	.columns p {
+		display:none;
+	}
+
+	nav.desktop {
+		display: none;
+	}
+
+	nav.mobile {
+		display: inline-block;
+	}
+
+}
