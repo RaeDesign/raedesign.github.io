@@ -16,7 +16,9 @@ header{
 }
 nav{
 	display: inline-block;
-	padding: 10px 17px 10px 1px;
+	position: absolute;
+	top: 1em;
+	right: 4em;
 	font-size: 1.25em;
 	color: #ffffff;
 	font-size: 0.85em;
@@ -45,7 +47,7 @@ section#ActionItems{
 }
 h1{
 	color:#328EAA;
-	font-size: 7em;
+	font-size: 3.5em;
 	line-height: 1em;
 	font-weight: bold;
 }
@@ -79,17 +81,7 @@ p {
 #menu-top-left{
 
 }
-#memberLogin{
-	float: right;
-	background-color: #808080;
-	height: 51vh;
-	padding-top: 2em;
-	padding-left: 1em;
-	padding-right: 1em;
-	font-weight: normal;
-	font-family: sans-serif;
 
-}
 .buttons {
     display: inline-block;
     background-color: #5f92b9;
