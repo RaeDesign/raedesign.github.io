@@ -52,7 +52,7 @@ section#ActionItems{
 	padding: 4em 1em;
 	background-color: rgba(25, 0, 0, 0.3);
 	color: #ffffff;
-	background: url(../images/backgroundwelcome.jpg) center no-repeat fixed;
+	background: url(../images/welcomebackground.jpg) center no-repeat fixed;
 	background-size: cover;
 }
 footer { 
