@@ -53,15 +53,15 @@ img {
     height: auto;
     width: auto\9; /* ie8 */
 }
-img.displayed {
+.clearfix img{
     display: block;
     margin-left: auto;
     margin-right: auto;
     border: .25em solid #021a40;
 }
-img.news{
+.news img {
 	display: inline-block;
-	border: .25em solid #D6D6D6;
+	border: .2em solid #DDDBDD;
 }
 .buttons.clearfix:after { 
 	visibility: hidden;   
@@ -150,13 +150,13 @@ p.action{
     padding: 4em 7em;
     clear: both;
 }
-.news>img {
+.news.clearfix img {
 	float: left;
 	width: 33%;
-	padding: 0 1em;
+	margin-right: 2em;
 }
-.news div {
-	min-height: 250px;
+.news.clearfix div {
+	min-height: 100px;
 	width: 100%;
 	padding: 0 1em;
 }
@@ -165,7 +165,20 @@ p.action{
 	margin-top: .75em;
 }
 .request {
+	margin: auto;
+	padding-top: 2em;
+	padding-left: 5em;
+	background-color: red;
 	float: left;
+}
+.goodquestion{
+	border-bottom: 1em solid #D6D6D6;
+}
+.meeting{
+	border-bottom: 1em solid #D6D6D6;
+}
+.calendar{
+	border-bottom: 1em solid #D6D6D6;
 }
 .tracontent {
 	float:left;
@@ -179,6 +192,6 @@ p.action{
 	padding: 0;
 }
 footer { 
-	padding-left: 5em;
-	padding-top: 2em;
-	} /*etc*/
+	padding: 2em 5em 0 5em;
+	clear: both;
+}
