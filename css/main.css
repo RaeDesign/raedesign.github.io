@@ -165,20 +165,32 @@ p.action{
 	margin-top: .75em;
 }
 .request {
-	margin: auto;
-	padding-top: 2em;
-	padding-left: 5em;
-	background-color: red;
 	float: left;
+	margin: auto;
+	padding-top: 1em;
+	padding-left: 5em;
 }
 .goodquestion{
-	border-bottom: 1em solid #D6D6D6;
 }
 .meeting{
-	border-bottom: 1em solid #D6D6D6;
 }
 .calendar{
-	border-bottom: 1em solid #D6D6D6;
+}
+.spbuttons {
+    display: inline-block;
+    background-color: #5f92b9;
+    padding: 1em 2em;
+    color: #ffffff;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    text-decoration: none;
+    border-bottom: 0.25em solid #14589a;
+    border-radius: 0.3em;
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+    transition-duration: 0.15s;
+    transition-timing-function: ease-in-out;
 }
 .tracontent {
 	float:left;
@@ -192,6 +204,6 @@ p.action{
 	padding: 0;
 }
 footer { 
-	padding: 2em 5em 0 5em;
+	padding: 1em 5em 0 5em;
 	clear: both;
 }
