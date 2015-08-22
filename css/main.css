@@ -128,7 +128,7 @@ p.action{
     background-color: #5f92b9;
     padding: 1em 2em;
     color: #ffffff;
-    margin-top: 3em;
+    margin: 2em 0 2em 0;
     text-decoration: none;
     border-bottom: 0.25em solid #14589a;
     border-radius: 0.3em;
@@ -150,4 +150,7 @@ figure {
 	border-bottom: .15em solid #DDDBDD;
 	background-color: #E9E8E9;
     padding: 3.5em 7em;
+}
+.request {
+	float: left;
 }
