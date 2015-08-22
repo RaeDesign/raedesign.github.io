@@ -71,14 +71,6 @@ img.news{
 	clear: both;   
 	height: 0; 
 }
-.clearfix:after {
-	content: ".";
-	visibility: hidden;
-	display: block;
-	height: 0;
-	clear: both;
-	overflow: auto;
-}
 section#splash {
 	max-width:1200px;
 	margin: auto;
@@ -149,27 +141,28 @@ p.action{
     transition-duration: 0.15s;
     transition-timing-function: ease-in-out;
 }
-figure {
-	clear: both;
-}
 #homepagenews {
 	text-align: left;
     max-width: 1200px;
     margin: auto;
 	border-bottom: 1em solid #D6D6D6;
 	background-color: #E9E8E9;
-    padding: 3.5em 7em;
+    padding: 4em 7em;
+    clear: both;
 }
-.news>img{
+.news>img {
 	float: left;
 	width: 33%;
 	padding: 0 1em;
 }
-.news div{
-	float: left;
+.news div {
 	min-height: 250px;
-	width: 73%;
+	width: 100%;
 	padding: 0 1em;
+}
+.news p{
+	line-height: 2em;
+	margin-top: .75em;
 }
 .request {
 	float: left;
