@@ -143,11 +143,11 @@ p.action{
 }
 #homepagenews {
 	text-align: left;
-    max-width: 1190px;
+    max-width: 1200px;
     margin: auto;
 	border-bottom: 1em solid #D6D6D6;
 	background-color: #E9E8E9;
-    padding: 4em 7em;
+    padding: 3em 5em;
     clear: both;
 }
 .news.clearfix img {
@@ -204,9 +204,17 @@ p.action{
 	background-color: #5f92b9;
 }
 #address {
-	padding: 0;
+	padding-left: 2em;
+	padding-top: 0;
+	padding-bottom: 0;
 }
 footer { 
 	padding: 1em 5em 0 5em;
 	clear: both;
+	background-color: #4A4B5A;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.82em;
+    padding: 1.5em 7em;
+    overflow: hidden;
+    text-align: right;
 }
