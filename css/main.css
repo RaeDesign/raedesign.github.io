@@ -48,10 +48,20 @@ ul {
     border-bottom: .15em solid #DDDBDD;
     background: #ffffff;
 }
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
 img.displayed {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: .25em solid #021a40;
+}
+img.news{
+	display: inline-block;
+	border: .25em solid #021a40;
 }
 .buttons.clearfix:after { 
 	visibility: hidden;   
@@ -73,10 +83,17 @@ section#splash {
 	background: url(../images/welcomebackground1.jpg) no-repeat fixed;
 	background-size: cover;
 }
-footer { 
-	padding-left: 5em;
-	padding-top: 2em;
-	} /*etc*/
+.logoText {
+	font-family: 'Montserrat', Helvetica, sans-serif;
+	font-weight: 200;
+	font-size: 1em;
+	color: #ffffff;
+}
+.slogan1 {
+	font-size: 1em;
+	color: #ffffff;
+	font-weight: 100;
+}
 h1, h2, h3, h4 {
 	font-family: 'Montserrat', Helvetica, sans-serif;
 }
@@ -105,35 +122,38 @@ p.action{
 	margin: 1em .5em 0 1em;
 	font-stretch: expanded;
 }
-.logoText {
-	font-family: 'Montserrat', Helvetica, sans-serif;
-	font-weight: 200;
-	font-size: 1em;
-	color: #ffffff;
-}
-.slogan1 {
-	font-size: 1em;
-	color: #ffffff;
-	font-weight: 100;
-}
 .container {
 	padding-left: 2em;
 	background-color: #6294B7;
-}
-#address {
-	padding: 0;
 }
 .buttons {
     display: inline-block;
     background-color: #5f92b9;
     padding: 1em 2em;
     color: #ffffff;
-    margin: 2em 0 2em 0;
+    margin: 2em 3em 5em 8em;
     text-decoration: none;
     border-bottom: 0.25em solid #14589a;
     border-radius: 0.3em;
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
     transition-duration: 0.15s;
     transition-timing-function: ease-in-out;
+}
+figure {
+	clear: both;
+}
+#homepagenews {
+	text-align: left;
+    max-width: 1000px;
+    margin: auto;
+	border-bottom: .15em solid #DDDBDD;
+	background-color: #E9E8E9;
+    padding: 3.5em 7em;
+}
+.request {
+	float: left;
 }
 .tracontent {
 	float:left;
@@ -143,14 +163,10 @@ p.action{
 	min-height: 150px;
 	background-color: #5f92b9;
 }
-figure {
-	clear: both;
+#address {
+	padding: 0;
 }
-#homepagenews {
-	border-bottom: .15em solid #DDDBDD;
-	background-color: #E9E8E9;
-    padding: 3.5em 7em;
-}
-.request {
-	float: left;
-}
+footer { 
+	padding-left: 5em;
+	padding-top: 2em;
+	} /*etc*/
