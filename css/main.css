@@ -144,6 +144,7 @@ p.action{
 #homepagenews {
 	text-align: left;
     max-width: 1200px;
+    min-height: 100px;
     margin: auto;
 	border-bottom: 1em solid #D6D6D6;
 	background-color: #E9E8E9;
@@ -156,7 +157,6 @@ p.action{
 	margin-right: 2em;
 }
 .news.clearfix div {
-	min-height: 100px;
 	width: 100%;
 	padding: 0 1em;
 }
@@ -168,16 +168,12 @@ p.action{
 	float: left;
 	margin: auto;
 	padding-top: 1em;
-	padding-left: 4em;
+	padding-left: 6em;
 }
-.goodquestion{
-	min-height: 100px;
-}
-.meeting{
-	min-height: 100px;
-}
-.calendar{
-	min-height: 100px;
+.goodquestion,
+.meeting,
+.calendar {
+	text-decoration: none;
 }
 .spbuttons {
     display: inline-block;
@@ -195,13 +191,19 @@ p.action{
     transition-duration: 0.15s;
     transition-timing-function: ease-in-out;
 }
+.wrapper {
+	max-width: 1300px;
+	max-height: 100px;
+	padding-left: 3em;
+	clear: both;
+}
 .tracontent {
 	float:left;
 	width: 33%;
 	padding: 2em;
 	border-right: .15em solid #D6D6D6;
 	min-height: 150px;
-	background-color: #5f92b9;
+	background-color: #E9E8E9;
 }
 #address {
 	padding-left: 2em;
@@ -209,12 +211,47 @@ p.action{
 	padding-bottom: 0;
 }
 footer { 
-	padding: 1em 5em 0 5em;
 	clear: both;
-	background-color: #4A4B5A;
+	background-color: #343650;
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.82em;
     padding: 1.5em 7em;
     overflow: hidden;
     text-align: right;
+}
+/*-----MEDIA RULES-------*/
+@media only screen and (max-width: 1177px) {
+    nav {
+    	display: block;
+    	max-width: 20em;
+    	max-height: 10em;
+    }
+    h1 {
+    	font-size: 2.25em;
+    }
+    .splash {
+    	max-height: 1em;
+    	padding: 2em 0em 0em 5em ;
+    }
+    .clearfix>p {
+    	display: none;
+    }
+    .button {
+    	display: block;
+    	margin: auto;
+
+    }
+}
+/*-----------TEST------*/
+$medium-up: "only screen and (max-width:"#{$small-screen}")";
+@media #{$small} { 
+    .responsive-button {
+        @include button($button-lrg, $primary-color, 0px, false, false, false); 
+    }
+}
+
+@media #{$medium-up} {
+    .responsive-button {
+        @include button($button-sml, $primary-color, 0px, false, false, false); 
+    }   
 }
